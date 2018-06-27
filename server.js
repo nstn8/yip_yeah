@@ -11,4 +11,4 @@ app.get('/', function(req, res){
     res.sendFile('index.html');
 });
 
-server.listen(process.env.PORT || port);
+app..listen(process.env.PORT || 3000);
