@@ -77,11 +77,12 @@ a {
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,200);
 body {
-  background-image: url('/img/yipyeahfeet.jpeg');
+  background-image: url('/img/Yip!Yeah!_press1.jpeg');
+  background-position: bottom;
 }
 
 .bg {
-  background-image: url('/img/Yip!Yeah!_press1.jpeg');
+  background-image: url('/img/yipyeahfeet.jpeg');
   background-size: contain;
   display: block;
   height: 100%;
@@ -111,14 +112,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  z-index: 3;
+  z-index: 11;
   top: 50%;
-  margin-top: -175px;
+  margin-top: -150px;
   left: 50%;
   margin-left: -140px;
   position: absolute;
   color: #fff;
-  opacity: 0.1;
+  opacity: 1;
   text-align: center;
   transition: all 1000ms;
 }
@@ -146,12 +147,12 @@ body {
   width: 180px;
   height: 180px;
   left: 50%;
-  position: relative;
+  position: fixed;
   margin-left: -90px;
   margin-top: 1px;
   background-size: 180px;
   opacity: 1;
-  z-index: 11;
+  z-index: 4;
 }
 
 .logo:hover {
