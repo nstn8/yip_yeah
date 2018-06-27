@@ -116,7 +116,7 @@ body {
   top: 50%;
   margin-top: -150px;
   left: 50%;
-  margin-left: -140px;
+  margin-left: -150px;
   position: absolute;
   color: #fff;
   opacity: 1;
@@ -124,11 +124,13 @@ body {
   transition: all 1000ms;
 }
 
-.cover:hover .title {
-  opacity: 1;
-  filter: blur(0px);
-  -webkit-filter: blur(0px);
-}
+/*.cover:hover .title {
+
+  opacity: 0.1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+}*/
+
 
 .title .text {
   font-size: 35px;
@@ -142,18 +144,18 @@ body {
   margin-top: 0px;
 }
 
-.logo {
+/*.logo {
   background: url(/img/y-shaped-intersection.svg);
   width: 180px;
   height: 180px;
   left: 50%;
   position: fixed;
-  margin-left: -90px;
+  margin-left: -95px;
   margin-top: 1px;
   background-size: 180px;
   opacity: 1;
   z-index: 4;
-}
+}*/
 
 .logo:hover {
   opacity: 0.1;
