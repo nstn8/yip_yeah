@@ -1,84 +1,12 @@
-/*@font-face {
-  font-family: 'DOS';
-  font-style: normal;
-  font-weight: normal;
-  font-smooth: never;
-  src: url('https://rawgit.com/kristopolous/BOOTSTRA.386/master/v2.3.1/fonts/Fixedsys500c.eot');
-  src: url('https://rawgit.com/kristopolous/BOOTSTRA.386/master/v2.3.1/fonts/Fixedsys500c.woff') format('woff'), url('https://rawgit.com/kristopolous/BOOTSTRA.386/master/v2.3.1/fonts/Fixedsys500c.ttf') format('truetype'), url('https://rawgit.com/kristopolous/BOOTSTRA.386/master/v2.3.1/fonts/Fixedsys500c.svg') format('svg');
-}
-
-body {
-  background-image: url('/yipyeahfeet.jpeg');
-  font-family: 'DOS';
-}
-
-div {
-  background-color: #4224F3;
-  width: 80%;
-  max-width: 480px;
-  margin: 100px auto 0;
-  box-shadow: 20px 20px black;
-  padding: 15px;
-  position: relative;
-}
-
-h1 {
-  position: absolute;
-  color: white;
-  font-size: 20px;
-  font-weight: normal;
-  background: #4224F3;
-  top: -5px;
-  padding: 0 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: inline;
-  white-space: nowrap;
-
-  &::after,
-  &::before {
-    content: ' ***** ';
-
-    @media (max-width: 400px) {
-      content: ' *** ';
-    }
-  }
-}
-
-p {
-  list-style: none;
-  border: double 4px white;
-  margin: 0;
-  padding: 15px;
-}
-
-li {
-  &:hover {
-    background-color: #34C0F9;
-  }
-}
-
-a {
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-  display: block;
-  padding: 6px 0 6px 6px;
-
-  &:hover {
-    color: #4224F3;
-  }
-
-  &:focus {
-    color: #fefe54;
-  }
-}*/
-
-
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,200);
 body {
   background-image: url('/img/Yip!Yeah!_press1.jpeg');
   background-position: bottom;
+}
+
+/*Navigation*/
+nav {
+  z-index: 11;
 }
 
 .bg {
@@ -219,4 +147,41 @@ body {
   color: white;
   font-size: 20px;
   z-index: 3;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+  color: #fbad50;
+}
+
+.fa-youtube {
+  color: #ff0000;
+}
+
+
+/*p5*/
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  /*opacity: .5;*/
 }
